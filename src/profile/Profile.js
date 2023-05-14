@@ -3,7 +3,7 @@ import propTypes from 'prop-types';
 
 function Profile({fullName, bio, profession,children,handleName}) {
   return (
-    <div style={{backgroundColor:'rgb(255, 189, 206)',marginBottom:29}}>
+    <div style={{backgroundColor:'rgb(255, 189, 206)',marginBottom:29}}> {/* inline styling*/}
      
         <h1 style={{fontSize:'medium',fontWeight:'normal'}}>Full Name : {fullName}</h1>{/* the fullName prop*/}
         <p>Bio : {bio}</p>{/* the bio prop*/}
